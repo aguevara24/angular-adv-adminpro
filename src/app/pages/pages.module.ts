@@ -13,6 +13,8 @@ import { Grafica1Component } from "./grafica1/grafica1.component";
 import { PagesComponent } from "./pages.component";
 import { ProgressComponent } from "./progress/progress.component";
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromiseSampleComponent } from './promise-sample/promise-sample.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
     PagesComponent,
     ProgressComponent,
     AccountSettingsComponent,
+    PromiseSampleComponent,
+    RxjsComponent,
   ],
   exports: [
     DashboardComponent,
